@@ -1,0 +1,14 @@
+<?php 
+    include_once '../../../template/top.php';
+    //include_once '../../home.php';
+?>
+
+<link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+
+<img id="farm" src="../../../assets/img/English/Vocabulary/farm animals.jpg">
+ 
+ 
+ 
+ <button onclick="location.href='../vocList.php'">Back</button>
+ 
+<?php include_once '../../../template/bottom.php'; ?>

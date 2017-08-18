@@ -1,0 +1,264 @@
+body{
+    background-image: url("http://localhost/Elearning/Current/assets/img/Backgrounds/back11.jpg");
+    //background-color:rgba(3, 165, 103, 1);
+}
+.div_main{
+    width: 100%;
+    height:100%;
+    float: left;
+}
+.div1{
+        width:90%;
+        height:250px;
+        background-image: url("http://thumbs.dreamstime.com/z/school-children-s-background-yellow-place-text-32952161.jpg");
+        margin-left: 34px;
+        padding: 30px;
+        border-radius: 5px;
+        float:left;
+}
+.div2{
+        width:20%;
+        height:328px;
+        color:rgba(241, 140, 39, 0.63);
+        margin-left: 34px;
+        margin-top: 20px;
+        border-radius: 5px;
+        float: left;
+}
+.div3{
+    //height:100vh;
+    min-height: 500px;
+    width: 70.5%;
+    //background-color: white;
+    background-image: url("http://localhost/Elearning/Current/assets/img/Backgrounds/back5.jpeg");
+    background-size: cover;
+    padding: 20px;
+    padding-left: 30px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 4px;
+    border-radius: 5px;   
+    //overflow: auto;
+}
+#title{
+    text-decoration: underline;
+    font-size: 60px;
+    color:rgba(236, 135, 34, 1);
+    text-shadow: 4px 3px rgba(51, 51, 51, 1);
+    float: left;
+    margin-top: 50px;
+}
+#uiu_logo{
+    height: 140px;
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+}
+ul{
+    background-color: rgba(168, 168, 168, 1);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+li a{
+    display: block;
+    color: #000;    
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 30px;
+}
+li a:hover{
+    background-color: rgba(51, 51, 51, 1);
+    display: block;
+    color:white;
+}
+td{    
+    padding: 10px;
+    font-size: 18px;
+}
+.row{
+    height: 100px;
+    width: 100%;
+    background-color: rink;
+}
+
+#capital_letter{
+    height: 420px;
+    margin-left: 125px;
+    margin-top: 20px;
+    width: 70%;
+}
+#small_letter{
+    height: 400px;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.vocList{
+    width: 90%;
+    background-color: palegreen;
+    border: 1px solid blue;
+    padding: 0;
+    border-spacing: 0;
+}
+.vocList tr td{
+    border: 1px solid blue;
+    cellspacing:0;
+    border-spacing: 0;
+    font-size: 25px;
+}
+#domestic{
+    height:1200px;
+    width: 900px;
+    margin: 10px 30px 30px 20px;
+    }
+#farm{
+    height:680px;
+    width: 900px;
+    margin: 30px;
+    margin-left: 0;
+}
+#wild{
+    height:1100px;
+    width: 850px;
+    margin:  10px 30px 30px 40px;
+}
+#bird{
+    height: 1300px;
+    margin: 10px 30px 30px 30px;
+    width: 850px;
+}
+#food1{
+    height: 1250px;
+    margin: 30px 30px 30px 40px;
+    width: 850px;
+}
+#flower{
+    height: 1000px;
+    margin: 20px 30px 30px 25px;
+    width: 850px;
+}
+#bodyparts{
+    height: 1150px;
+    margin: 30px 30px 30px 70px;
+    width: 850px;
+}
+#days{
+    height: 1000px;
+    margin: 50px 30px 30px 115px;
+    width: 700px;
+}
+#colors{
+    height: 950px;
+    margin: 30px 30px 30px 65px;
+    width: 800px;
+}
+#ans{
+    font-size:130px;
+    color: red;
+    font-weight: bold;
+}
+
+.add td{
+    text-align: center;  
+}
+#showDiv{
+    height: 150px;
+    width: 250px;
+    border: 2px solid blue;
+    display: block;
+    padding: 10px;
+}
+/*net*/
+body {
+    font-family:Arial, Sans-Serif;
+}
+.clearfix:before, .clearfix:after { 
+    content: ""; display: table; 
+}
+.clearfix:after { 
+    clear: both; 
+}
+a {
+    color:blue; 
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+input[type='text'], input[type='email'], input[type='password'] {
+    width: 200px; 
+    border-radius: 2px;
+    border: 1px solid #CCC; 
+    padding: 10px; 
+    color: #333; 
+    font-size: 16px; 
+    margin-top: 10px;
+}
+input[type='submit']{
+    padding: 10px 25px 8px; 
+    color: #fff; 
+    background-color: midnightblue; 
+    text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+    font-size: 16px; 
+    box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+    border: 1px solid #6faf38; 
+    border-radius: 2px; 
+    margin-top: 10px; 
+    cursor:pointer;
+}
+input[type='submit']:hover {
+    background-color: lime;
+}
+
+#wordsAZ{
+    margin-left: 100px;
+}
+
+#word{
+    color: rgba(57, 57, 60, 1);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#count{
+    height: 650px;
+    width: 700px;
+    margin-left: 95px;
+}
+
+#cans{
+    font-size: 90px;
+    color: red;
+    width: 100px;
+    height: 105px;
+    font-weight:bold;
+    margin: 20px;
+}
+
+#wel1{
+    margin-top:100px;
+    font-size: 80px;
+    font-family: "Butterfly Kids";
+}
+#wel2{
+   font-size: 50px;
+   font-family: "Butterfly Kids"; 
+}
+
+.spell img{
+    height: 300px;
+    width: 300px;
+}
+
+button{
+    color: white;
+    background-color:rgba(255, 52, 48, 1);
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
